@@ -123,7 +123,7 @@ class AntiPMMod(loader.Module):
                 logger.debug("Authorised pm detected")
             else:
                 await message.respond(_("<code>Hey there! Unfortunately, I don't accept private messages from "
-                                        "strangers.\n\nPlease contact me in a group, or</code> <b>wait</b> "
+                                        "strangers.\n\nPlease contact me in a group or drop your message at  @satwik_ka_bot . , or</code> <b>wait</b> "
                                         "<code>for me to approve you.</code>"))
                 if isinstance(self.config["PM_BLOCK_LIMIT"], int):
                     limit = self._db.get(__name__, "limit", {})
