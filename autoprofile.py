@@ -39,7 +39,7 @@ def register(cb):
 class AutoProfileMod(loader.Module):
     """Automatic stuff for your profile :P"""
     def __init__(self):
-        self.name = _("Automatic Profile")
+        self.name = ("Automatic Profile")
         self.bio_enabled = False
         self.name_enabled = False
         self.pfp_enabled = False
